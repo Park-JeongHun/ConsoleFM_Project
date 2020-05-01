@@ -1,0 +1,13 @@
+C:\Users\ghkkl\source\repos\ConsoleFM_Project\ConsoleFM_Project\bin\Debug\ConsoleFM_Project.exe.config
+C:\Users\ghkkl\source\repos\ConsoleFM_Project\ConsoleFM_Project\bin\Debug\ConsoleFM_Project.exe
+C:\Users\ghkkl\source\repos\ConsoleFM_Project\ConsoleFM_Project\bin\Debug\ConsoleFM_Project.pdb
+C:\Users\ghkkl\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.csprojAssemblyReference.cache
+C:\Users\ghkkl\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.exe
+C:\Users\ghkkl\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.pdb
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\bin\Debug\ConsoleFM_Project.exe.config
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\bin\Debug\ConsoleFM_Project.exe
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\bin\Debug\ConsoleFM_Project.pdb
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.csprojAssemblyReference.cache
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.csproj.CoreCompileInputs.cache
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.exe
+C:\Users\q\source\repos\ConsoleFM_Project\ConsoleFM_Project\obj\Debug\ConsoleFM_Project.pdb
