@@ -18,7 +18,7 @@ namespace ConsoleFM_Project
 
         public bool isCrowd;   //** 관중인가? (true면 관중, false 면 관계자) **
 
-        public int influence;  //경기 영향력
+        public static int influence;  //경기 영향력
 
         public virtual void SnackBar()
         {

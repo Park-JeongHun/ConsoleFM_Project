@@ -37,7 +37,7 @@ namespace ConsoleFM_Project
     enum Debuff
     {
 
-        STRENGTH_DOWN,
+        STRENGTH_DOWN = 10,
         STAMINA_DOWN,
         JUMPING_DOWN,
         SHOTPOWER_DOWN,
@@ -184,6 +184,149 @@ namespace ConsoleFM_Project
                 if (i == debuffNumb) Console.WriteLine(debuffList[i]);
 
                 else continue;
+
+            }
+
+            Console.WriteLine("Coach Influence: " + Coach.influence);
+
+            if (Coach.influence >= 1 && Coach.influence < 5)
+            {
+
+                Program.strength += 1;
+                Program.stamina += 1;
+                Program.jump += 1;
+                Program.shotPower += 1;
+                Program.reaction += 1;
+                Program.agility += 1;
+                Program.sprint += 1;
+                Program.accel += 1;
+                Program.passAc += 1;
+                Program.headAc += 1;
+                Program.shotAc += 1;
+                Program.dribble += 1;
+                Program.tackle += 1;
+                Program.sliding += 1;
+                Program.mantoman += 1;
+                Program.positioning += 1;
+                Program.vision += 1;
+                Program.gk_handle += 1;
+                Program.gk_onetoone += 1;
+                Program.gk_diving += 1;
+
+                Console.WriteLine("모든 능력치 가 +1 되었습니다.");
+
+            }
+
+            if (Coach.influence >= 5 && Coach.influence < 10)
+            {
+
+
+                Program.strength += 2;
+                Program.stamina += 2;
+                Program.jump += 2;
+                Program.shotPower += 2;
+                Program.reaction += 2;
+                Program.agility += 2;
+                Program.sprint += 2;
+                Program.accel += 2;
+                Program.passAc += 2;
+                Program.headAc += 2;
+                Program.shotAc += 2;
+                Program.dribble += 2;
+                Program.tackle += 2;
+                Program.sliding += 2;
+                Program.mantoman += 2;
+                Program.positioning += 2;
+                Program.vision += 2;
+                Program.gk_handle += 2;
+                Program.gk_onetoone += 2;
+                Program.gk_diving += 2;
+
+                Console.WriteLine("모든 능력치 가 +2 되었습니다.");
+
+            }
+
+            if (Coach.influence >= 10 && Coach.influence < 15)
+            {
+
+                Program.strength += 3;
+                Program.stamina += 3;
+                Program.jump += 3;
+                Program.shotPower += 3;
+                Program.reaction += 3;
+                Program.agility += 3;
+                Program.sprint += 3;
+                Program.accel += 3;
+                Program.passAc += 3;
+                Program.headAc += 3;
+                Program.shotAc += 3;
+                Program.dribble += 3;
+                Program.tackle += 3;
+                Program.sliding += 3;
+                Program.mantoman += 3;
+                Program.positioning += 3;
+                Program.vision += 3;
+                Program.gk_handle += 3;
+                Program.gk_onetoone += 3;
+                Program.gk_diving += 3;
+
+                Console.WriteLine("모든 능력치 가 +3 되었습니다.");
+
+            }
+
+            if (Coach.influence >= 15 && Coach.influence < 20)
+            {
+
+                Program.strength += 5;
+                Program.stamina += 5;
+                Program.jump += 5;
+                Program.shotPower += 5;
+                Program.reaction += 5;
+                Program.agility += 5;
+                Program.sprint += 5;
+                Program.accel += 5;
+                Program.passAc += 5;
+                Program.headAc += 5;
+                Program.shotAc += 5;
+                Program.dribble += 5;
+                Program.tackle += 5;
+                Program.sliding += 5;
+                Program.mantoman += 5;
+                Program.positioning += 5;
+                Program.vision += 5;
+                Program.gk_handle += 5;
+                Program.gk_onetoone += 5;
+                Program.gk_diving += 5;
+
+                Console.WriteLine("모든 능력치 가 +5 되었습니다.");
+
+            }
+
+            if (Coach.influence >= 20)
+            {
+
+                Program.strength += 10;
+                Program.stamina += 10;
+                Program.jump += 10;
+                Program.shotPower += 10;
+                Program.reaction += 10;
+                Program.agility += 10;
+                Program.sprint += 10;
+                Program.accel += 10;
+                Program.passAc += 10;
+                Program.headAc += 10;
+                Program.shotAc += 10;
+                Program.dribble += 10;
+                Program.tackle += 10;
+                Program.sliding += 10;
+                Program.mantoman += 10;
+                Program.positioning += 10;
+                Program.vision += 10;
+                Program.gk_handle += 10;
+                Program.gk_onetoone += 10;
+                Program.gk_diving += 10;
+
+                Console.WriteLine("모든 능력치 가 +10 되었습니다.");
 
             }
 

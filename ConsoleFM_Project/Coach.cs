@@ -16,7 +16,7 @@ namespace ConsoleFM_Project
             this.name = name;
             this.age = age;
             this.gender = gender;
-            this.influence = influence;
+            Human.influence = influence;
 
             isCrowd = false;
 

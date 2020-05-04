@@ -51,7 +51,7 @@ namespace ConsoleFM_Project
         public static List<int>    subWeakList = new List<int>();
         public static List<int>    subOverallList = new List<int>();
 
-        public static int euro = 1000000;
+        public static int euro = 100000000;
 
         static void Menu() //메인 메뉴 구성
         {
@@ -327,17 +327,54 @@ namespace ConsoleFM_Project
                 int weakFoot = int.Parse(Console.ReadLine());   //약한 발은 사용 빈도에 따라 1~5 사이라서 인트형
                 Console.WriteLine("");
 
-                if (position == "FW") overall =
-                (strength + shotPower + reaction + agility + sprint + accel + passAc + headAc + shotAc + dribble + positioning) / 11;
+                if (position == "FW")
+                {
 
-                if (position == "MF") overall =
-                (stamina + reaction + agility + passAc + dribble + tackle + vision) / 7;
+                    gk_diving = 3;
+                    gk_onetoone = 3;
+                    gk_handle = 3;
 
-                if (position == "DF") overall =
-                (strength + jump + reaction + agility + sprint + passAc + headAc + tackle + sliding + mantoman + positioning) / 11;
+                    overall = (strength + shotPower + reaction + agility + sprint + accel + passAc + headAc + shotAc + dribble + positioning) / 11;
 
-                if (position == "GK") overall =
-                (gk_handle + gk_onetoone + gk_diving + passAc + jump + strength + positioning) / 7;
+                }
+
+                if (position == "MF")
+                {
+
+                    gk_diving = 5;
+                    gk_onetoone = 5;
+                    gk_handle = 5;
+
+                    overall = (stamina + reaction + agility + passAc + dribble + tackle + vision) / 7;
+
+                }
+
+                if (position == "DF")
+                {
+
+                    gk_diving = 4;
+                    gk_onetoone = 4;
+                    gk_handle = 4;
+
+                    overall = (strength + jump + reaction + agility + sprint + passAc + headAc + tackle + sliding + mantoman + positioning) / 11;
+
+                }
+
+                if (position == "GK")
+                {
+
+                    shotPower = 3;
+                    reaction = 3;
+                    agility = 3;
+                    sprint = 5;
+                    accel = 5;
+                    shotAc = 3;
+                    dribble = 3;
+                    mantoman = 3;
+
+                    overall = (gk_handle + gk_onetoone + gk_diving + passAc + jump + strength + positioning) / 7;
+
+                }
 
                 Player player = new Player(name, backNumb, position, prefFoot, weakFoot, overall);   //객체 생성 후 매개변수는 사용자 입력받은 값을 받는다.
 
